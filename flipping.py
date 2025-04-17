@@ -13,8 +13,8 @@ class Rotation(Enum):
 # ===== CONFIG =====
 FLIP = True
 ROTATE = Rotation.DEG_180
-IMAGE_DIR = 'small'
-OUTPUT_PATH = 'small_flipped'
+IMAGE_DIR = 'images_malignant'
+OUTPUT_PATH = 'imaged_augmented'
 # ===================
 
 os.makedirs(OUTPUT_PATH, exist_ok=True)
